@@ -1,0 +1,14 @@
+{
+  "name": "careerfit-landing",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Trang giới thiệu công khai dự án CareerFit",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "dev": "node scripts/preview.mjs",
+    "build": "node scripts/build.mjs",
+    "check": "node --check public/main.js && node --check scripts/build.mjs && node --check scripts/preview.mjs",
+    "preview": "node scripts/preview.mjs --dist"
+  }
+}
